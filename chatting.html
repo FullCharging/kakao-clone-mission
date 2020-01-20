@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>chatting / kakao challenge</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="status-bar__clock">13:54</div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <a href="more.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">채팅방</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon"><i class="fas fa-search"></i></span>
+        <span class="i fas fa-bars"></span>
+      </div>
+    </header>
+    <main class="chatting">
+      <ul class="chatting__messages">
+        <span class="chatting__timestamp">Friday, January 11, 2019</span>
+        <li class="incomming-message message">
+          <img
+            class="g-avatar message__avatar"
+            src="css/3.jpg"
+            alt="채팅대화상대"
+          />
+          <div class="message__content">
+            <span class="message__authore">대화 상대이름</span>
+            <span class="message__bubble">채팅말풍선</span>
+          </div>
+          <span class="message__timestamp">채팅 보낸 시간</span>
+        </li>
+        <li class="incomming-message message">
+          <div class="message__content">
+            <span class="message__bubble">채팅말풍선</span>
+          </div>
+          <span class="message__timestamp">채팅 보낸 시간</span>
+        </li>
+      </ul>
+    </main>
+    <div class="chatting__write">
+      <div class="chatting__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chatting__write-column">
+        <input
+          type="text"
+          placeholder=" 메시지 적는 곳"
+          class="chatting__write-input"
+        />
+      </div>
+      <div class="chatting__write-column">
+        <span class="chatting__write-icon"><i class="far fa-smile"></i></span>
+        <span class="chatting__write-icon"
+          ><i class="fas fa-microphone"></i
+        ></span>
+      </div>
+    </div>
+  </body>
+</html>
