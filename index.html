@@ -36,24 +36,26 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
-          <a href="chatting.html">
-            <div class="chat__column">
-              <img class="chat__avatar g-avatar" src="css/3.jpg" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Lynn
-                </span>
-                <span class="chat__preview">
+        <a href="chatting.html">
+          <li class="friends__friend friend">
+            <div class="friend__column">
+              <img
+                src="css/3.jpg"
+                alt="친구목록 사진"
+                class="g-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">Jisu</span>
+                <span class="friend__preview">
                   Going home!
                 </span>
               </div>
             </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+            <div class="friend__column">
+              <span class="chats__timestamp">Yesterday</span>
             </div>
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </main>
     <nav class="nav">
@@ -65,6 +67,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__bedge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
